@@ -2,6 +2,15 @@
 
 This repository provides a modular Python setup for logging and log viewing — from simple file-based loggers to WebSocket-enabled viewers.
 
+## 💡 Features
+
+- ✅ Centralized path management
+- ✅ Customizable logger setup
+- ✅ Exception handling and fallback
+- ✅ Modular log viewers
+- ✅ Real-time WebSocket integration
+- ✅ Easily extendable for test grouping and nested log structure
+
 ## 📦 Components
 
 - `paths.py` – Centralized file path management
@@ -41,15 +50,6 @@ This repository provides a modular Python setup for logging and log viewing — 
   * Content may be temporary or example-based; can be cleared or rotated
   * Note: In production, this file is typically excluded via .gitignore or managed separately to prevent log overflow.
 
-## 💡 Features
-
-- ✅ Centralized path management
-- ✅ Customizable logger setup
-- ✅ Exception handling and fallback
-- ✅ Modular log viewers
-- ✅ Real-time WebSocket integration
-- ✅ Easily extendable for test grouping and nested log structure
-
 ## 📁 How to use
 
 ```bash
@@ -57,4 +57,3 @@ This repository provides a modular Python setup for logging and log viewing — 
 git clone https://github.com/yourusername/logger-project
 
 # Run the main application
-python main.py
